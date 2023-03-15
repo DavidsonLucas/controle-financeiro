@@ -30,7 +30,11 @@ export const Input = styled.input`
     padding: 5px 10px;
     font-size: 15px;
     border: 1px solid #ccc;
-`
+    
+    &[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    }
+    `
 
 export const RadioGrup = styled.div`
     display: flex;
